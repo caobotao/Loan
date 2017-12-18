@@ -1,0 +1,1 @@
+var appConfig={contextPath:'/Loan',version:'1.0.0',service:'remoting',network:'1'};
