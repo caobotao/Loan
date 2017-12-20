@@ -2527,7 +2527,7 @@ $controller.agentreg.init = function($dom) {
 		if(countdown == 0) {
 			obj.attr("disabled", false);
 			//		obj.button_disabled=false;
-			obj.text("免费获取验证码").css("background-color", "#fbb200");
+			obj.text("免费获取验证码").css("background-color", "#66CCFF");
 			countdown = 60;
 			return;
 		} else {
@@ -2574,26 +2574,26 @@ $controller.agentreg.init = function($dom) {
 		if(!myreg.test(username)) {
 			alert('请输入有效的手机号码!');
 			$dom.find("a.btn-reg").attr("disabled", false);
-			$dom.find("a.btn-reg").css("background-color", "#fbb200");
+			$dom.find("a.btn-reg").css("background-color", "#66CCFF");
 			return;
 		}
 		if(isNull(code)) {
 			alert("验证码不能为空");
 			$dom.find("a.btn-reg").attr("disabled", false);
-			$dom.find("a.btn-reg").css("background-color", "#fbb200");
+			$dom.find("a.btn-reg").css("background-color", "#66CCFF");
 			return;
 		}
 
 		if(pwd.length < 8) {
 			alert("密码长度为8到16位");
 			$dom.find("a.btn-reg").attr("disabled", false);
-			$dom.find("a.btn-reg").css("background-color", "#fbb200");
+			$dom.find("a.btn-reg").css("background-color", "#66CCFF");
 			return;
 		}
 		if(pwd != cfmpwd) {
 			alert("两次密码不相同");
 			$dom.find("a.btn-reg").attr("disabled", false);
-			$dom.find("a.btn-reg").css("background-color", "#fbb200");
+			$dom.find("a.btn-reg").css("background-color", "#66CCFF");
 			return;
 		}
 		$serviceProvider.agentInviteReg($("#form_reginfo"), function(res) {
@@ -2602,7 +2602,7 @@ $controller.agentreg.init = function($dom) {
 			} else {
 				alert(res.message);
 				$dom.find("a.btn-reg").attr("disabled", false);
-				$dom.find("a.btn-reg").css("background-color", "#fbb200");
+				$dom.find("a.btn-reg").css("background-color", "#66CCFF");
 			}
 
 		});

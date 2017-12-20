@@ -49,7 +49,7 @@
 			text-align: center;
 			font-size: 18px;
 			color: #fff;
-			background-color: #fbb200;
+			background-color: #66CCFF;
 			border-radius: 4px;
 			font-family: "微软雅黑", "宋体";
 		}

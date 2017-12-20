@@ -213,7 +213,7 @@
 		if(countdown == 0) {
 			obj.attr("disabled", false);
 			//		obj.button_disabled=false;
-			obj.text("免费获取验证码").css("background-color", "#fbb200");
+			obj.text("免费获取验证码").css("background-color", "#66CCFF");
 			countdown = 60;
 			return;
 		} else {
