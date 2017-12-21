@@ -105,11 +105,11 @@
 							<input type="text" name="age" autocomplete="off" placeholder="请输入年龄" />
 						</div>
 						<div class="row-cell row-cell-last chose_city">
-							<select class="city" name="provinceCode">
+							<select class="city" style="border:1px solid #66CCFF; background:url('<%=basePath %>/web/resources/app/images/agentreg/arrow.gif') no-repeat scroll right center transparent;" name="provinceCode">
 							</select>
-							<select class="city" name="cityCode">
+							<select class="city" style="border:1px solid #66CCFF; background:url('<%=basePath %>/web/resources/app/images/agentreg/arrow.gif') no-repeat scroll right center transparent;" name="cityCode">
 							</select>
-							<select class="city" name="districtCode">
+							<select class="city" style="border:1px solid #66CCFF; background:url('<%=basePath %>/web/resources/app/images/agentreg/arrow.gif') no-repeat scroll right center transparent;" name="districtCode">
 							</select>
 						</div>
 					</div>
